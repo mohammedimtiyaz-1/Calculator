@@ -1,0 +1,10 @@
+button{
+    padding: 4px;
+    width: 98px;
+    height: 40px;;
+    
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

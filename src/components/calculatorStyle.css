@@ -1,0 +1,19 @@
+.layout{
+    border:1px solid black;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.input{
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    direction:rtl;
+
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto auto auto;
+}
