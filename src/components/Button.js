@@ -2,13 +2,11 @@ import React from "react";
 import "./Buttonstyle.css";
 
 export default function Button(props) {
-  const changeHandler = () => {
-    props.clickHandler(props.name);
-  };
-
   return (
     <div>
-      <button onClick={() => changeHandler()}>{props.name}</button>
+      <button onClick={() => props.clickHandler(props.value)}>
+        {props.name}
+      </button>
     </div>
   );
 }
